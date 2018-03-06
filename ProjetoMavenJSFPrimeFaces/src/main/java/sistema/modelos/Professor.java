@@ -1,7 +1,6 @@
 package sistema.modelos;
 
-public class Aluno {
-
+public class Professor {
 
 	private int matricula;
 	private String nome;

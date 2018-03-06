@@ -1,5 +1,4 @@
 package sistema.beans;
-
 import java.util.List;
 
 import javax.faces.bean.ManagedBean;
@@ -19,7 +18,6 @@ public class AlunoManagedBean {
 	{
 		service.salvar(aluno);
 		aluno = new Aluno();
-		
 	}
 
 	public Aluno getAluno() {
@@ -37,5 +35,4 @@ public class AlunoManagedBean {
 	
 	
 	
-
 }
